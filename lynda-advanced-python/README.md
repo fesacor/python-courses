@@ -25,3 +25,9 @@ Use built-in functions as often as possible. This leverage the optimized existin
 ### Iterators
 
 Built-in methods to help out with sequence looping.
+
+Use `iter()` to iterate through a file (in conjunction with `readline`).
+In this case a seccond argument will be passed to `iter()`, which is called
+the sentinel and and denotes when to stop iterating.
+
+Use `enumerate()` when there's a need for indexed iteration. This also makes code easier to read.
