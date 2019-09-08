@@ -3,3 +3,5 @@ print('Value of b: {}'.format(b))
 
 s = 'This is a string.'
 print(s)
+
+print(s+b)
