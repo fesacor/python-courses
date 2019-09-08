@@ -14,7 +14,7 @@
 
 For simple variable substitution this is easier to use and more readable.
 
-Templates could be supplied from a source that I can't controll or I don't fully trust.
+Templates could be supplied from a source that I can't control or I don't fully trust.
 
 ### Built-in fnctions
 
@@ -31,3 +31,12 @@ In this case a seccond argument will be passed to `iter()`, which is called
 the sentinel and and denotes when to stop iterating.
 
 Use `enumerate()` when there's a need for indexed iteration. This also makes code easier to read.
+
+### Transforms
+
+Built-in functions for transforming sequences of data. Such as `filer()` and `map()`.
+
+Use `filter()` to filter out entries from a sequence based on a criteria that is given
+by a function which returns boolean.
+
+Use `map()` to apply a given function to each entry in a sequence.
