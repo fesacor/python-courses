@@ -47,6 +47,7 @@ Find more info [here](https://docs.python.org/3/library/itertools.html).
 
 Useful for creating iterators that generate sequences.
 
-**Important**: the `next()` method allowes to iterate through.
+**Important**: the `next()` method allows to iterate through iterators.
+
 
 
