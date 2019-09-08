@@ -4,4 +4,9 @@ print('Value of b: {}'.format(b))
 s = 'This is a string.'
 print(s)
 
-print(s+b)
+try:
+    print(s+b)
+except Exception as e:
+    print('Tried to do \'s+b\' but the error was: {}'.format(e))
+    s2 = b.decode('utf-8')
+    print('Decoded \'b\', This is the new concat result: {}'.format(s+s2))
