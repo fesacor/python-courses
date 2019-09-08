@@ -21,3 +21,7 @@ Templates could be supplied from a source that I can't controll or I don't fully
 Find more info about built-in functions [here](https://docs.python.org/3/library/functions.html).
 
 Use built-in functions as often as possible. This leverage the optimized existing code in Python.
+
+### Iterators
+
+Built-in methods to help out with sequence looping.
