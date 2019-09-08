@@ -40,3 +40,13 @@ Use `filter()` to filter out entries from a sequence based on a criteria that is
 by a function which returns boolean.
 
 Use `map()` to apply a given function to each entry in a sequence.
+
+### Itertools (this is very helpful)
+
+Find more info [here](https://docs.python.org/3/library/itertools.html).
+
+Useful for creating iterators that generate sequences.
+
+**Important**: the `next()` method allowes to iterate through.
+
+
