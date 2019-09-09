@@ -51,7 +51,7 @@ Useful for creating iterators that generate sequences.
 
 ### Function documentation strings
 
-Use `__doc__` to print the documentation for a given function or module. E.g. `print(map.__doc__)`.
+Use `__doc__` to print the documentation for a given function or module. E.g.: `print(map.__doc__)`.
 
 For documenting, use literal string at the top of a function, class, module with triple quotation marks.
 
@@ -69,6 +69,12 @@ These have to be defined after any positional arguments.
 The convention is to name this parameter `args`.
 
 A list can be passed as the `args` argument. It has to be passed to the function call with a leading asterisk.
+
+### Lambda functions
+
+When there is no need to define a whole separate funcion because of the added complexity. Improve code readability.
+
+Defined as `lambda <parameters>: expression(parameters)`
 
 
 
