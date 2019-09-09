@@ -84,4 +84,10 @@ Example: `def my_fcn(arg0, arg1, *, kw_only_arg=True)`
 
 These are the ones defined after the `*,`.
 
+### Advanced collections overview
+
+- **`namedtuple`**
+- **`OrderedDict`, `defaultdict`**
+- **`Counter`**
+- **`deque`**
 
