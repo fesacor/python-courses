@@ -104,3 +104,15 @@ Have a default value for each dictionay entry.
 > If I try to access a key that doesn't exist, the key is created with the default value.
 
 A `type` must be passed as an argument. It specifyes the type of the default values. This can be replaced by a `lambda` which sets the default value.
+
+### Counters
+
+Creates a dictionary with a count for each key.
+
+Use `update()` to add new entries to an existing counter.
+
+Use `most_common()` to get the most common entries and their respective counts. 
+
+Use `subtract()` to remove entries from an existing counter.
+
+Use `&` to get the intersection between two counters.
