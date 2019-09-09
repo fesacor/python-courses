@@ -76,5 +76,12 @@ When there is no need to define a whole separate funcion because of the added co
 
 Defined as `lambda <parameters>: expression(parameters)`
 
+### Keyword-only arguments
+
+Used to define arguments that must be passed as keywords to a function.
+
+Example: `def my_fcn(arg0, arg1, *, kw_only_arg=True)`
+
+These are the ones defined after the `*,`.
 
 
