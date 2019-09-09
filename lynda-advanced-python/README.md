@@ -6,7 +6,7 @@
 
 **Bytes:** sequece of raw 8bit values.
 
-### Template strings (String formatting)
+### Template strings (string formatting)
 
 **String doc:** [for python3](https://docs.python.org/3/library/string.html) 
 
@@ -63,7 +63,12 @@ For documenting, use literal string at the top of a function, class, module with
 
 ### Variable argument lists (functions)
 
+Use an asterisk to denote a function argument that takes a variable number of parameters.
+These have to be defined after any positional arguments.
 
+The convention is to name this parameter `args`.
+
+A list can be passed as the `args` argument. It has to be passed to the function call with a leading asterisk.
 
 
 
