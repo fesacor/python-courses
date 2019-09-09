@@ -49,5 +49,21 @@ Useful for creating iterators that generate sequences.
 
 **Important**: the `next()` method allows to iterate through iterators.
 
+### Function documentation strings
+
+Use `__doc__` to print the documentation for a given function or module. E.g. `print(map.__doc__)`.
+
+For documenting, use literal string at the top of a function, class, module with triple quotation marks.
+
+- First line should contain the name of the function with its parameters and a brief description.
+- Then, with a line left blak, a description of the parameters (one per line).
+- Modules: list important classes, funcs, exceptions.
+- Classes: list important methods and members.
+- Functions: if there's a return value, explain it. Mention exceptions.
+
+### Variable argument lists (functions)
+
+
+
 
 
