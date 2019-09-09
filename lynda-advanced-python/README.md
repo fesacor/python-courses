@@ -96,3 +96,11 @@ These are the ones defined after the `*,`.
 Create tuples which have a general name, and each entry has its own "tag".
 
 Use `_replace()` to replace the value for a given "tag" in the tuple.
+
+### `defaultdict`
+
+Have a default value for each dictionay entry.
+
+> If I try to access a key that doesn't exist, the key is created with the default value.
+
+A `type` must be passed as an argument. It specifyes the type of the default values. This can be replaced by a `lambda` which sets the default value.
