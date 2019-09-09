@@ -91,3 +91,8 @@ These are the ones defined after the `*,`.
 - **`Counter`**
 - **`deque`**
 
+### Using `namedtuple`
+
+Create tuples which have a general name, and each entry has its own "tag".
+
+Use `_replace()` to replace the value for a given "tag" in the tuple.
