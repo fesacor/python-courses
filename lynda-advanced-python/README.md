@@ -116,3 +116,12 @@ Use `most_common()` to get the most common entries and their respective counts.
 Use `subtract()` to remove entries from an existing counter.
 
 Use `&` to get the intersection between two counters.
+
+### OrderedDict
+
+Regular dictionaries in Python don't keep order.
+
+Won't keep things sorted. If changes are made, it will be necessary to re-sort it.
+
+Equality between two ODs is true if both have the same order. 
+Equality between a OD and a regular dict will be true if both have the same contents.
