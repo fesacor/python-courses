@@ -162,5 +162,17 @@ Python expresion to recreate an object with the same value: `object.__repr__(sel
 
 There is also the following:
 
-- `object.__format__(self, format_spec)` --> `format(object, format_spec)`
-- `object.__bytes__(self)` --> `bytes(object)`
+- `format(object, format_spec)` --> `object.__format__(self, format_spec)`.
+- `bytes(object)` --> `object.__bytes__(self)`.
+
+### Computed attributes
+
+Control how attributes are accessed in an object.
+
+Retrive attribute value (called when `object.attr`): `object.__getattribute__(self, attr)` (called unconditionally, everytime) and `object.__getattr__(self, attr)` (when requested attribute can't be found in object).
+
+When setting an attribute (`object.attr = val`), `object.__setattr__(self, attr, val)` is called.
+
+When deleting an attribute (`del object.attr`), `object.__delattr__(self)` is called.
+
+Discover the attributes that an object supports: `dir(object)` --> `object.__dir__(self)`.
