@@ -131,5 +131,25 @@ Equality between a OD and a regular dict will be true if both have the same cont
 Memory efficient when accessed through either end.
 
 Add data: `appendleft()` or `append()`.
+
 Remove data: `popleft()` or `pop()`.
+
 `rotate()`: basically shift deque elements right (positive) or left (negative).
+
+### Advanced classes overview
+
+Use special functions and features that are part of every object in Python.
+
+### Defining enumerations
+
+Increase readability of code: assign easy-to-read names to constant values.
+
+Use as hash values and iterate through them.
+
+Not valid to have a duplicate name. 
+
+It is valid to have duplicate values.
+
+To prevent duplicate values, use the `unique` decorator (this is applied to the class declaraion).
+
+Use the `auto()` function to automatically assign values.
