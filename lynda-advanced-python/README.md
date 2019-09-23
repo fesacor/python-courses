@@ -153,3 +153,14 @@ It is valid to have duplicate values.
 To prevent duplicate values, use the `unique` decorator (this is applied to the class declaraion).
 
 Use the `auto()` function to automatically assign values.
+
+### Class string values
+
+Human-readable string that the object returns. This is `object.__str__(self)` and is called when the following functions are used: `str(object)`, `print(object)` and `'{}'.format(object)`. 
+
+Python expresion to recreate an object with the same value: `object.__repr__(self)` called when `repr()` is used. This is commonly used for debugging, and it's also used when `object.__str__(self)` is not declared.
+
+There is also the following:
+
+- `object.__format__(self, format_spec)` --> `format(object, format_spec)`
+- `object.__bytes__(self)` --> `bytes(object)`
