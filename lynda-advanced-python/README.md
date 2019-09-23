@@ -125,3 +125,11 @@ Won't keep things sorted. If changes are made, it will be necessary to re-sort i
 
 Equality between two ODs is true if both have the same order. 
 Equality between a OD and a regular dict will be true if both have the same contents.
+
+### Deque (Double Ended Queue)
+
+Memory efficient when accessed through either end.
+
+Add data: `appendleft()` or `append()`.
+Remove data: `popleft()` or `pop()`.
+`rotate()`: basically shift deque elements right (positive) or left (negative).
